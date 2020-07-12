@@ -8,8 +8,7 @@
 }
 
 nav {
-  display: -ms-grid;
-  display: grid;
+  display: none;
   -ms-grid-columns: 15% 25% 15% 15% 15% 15%;
       grid-template-columns: 15% 25% 15% 15% 15% 15%;
   padding: 20px 15px;
