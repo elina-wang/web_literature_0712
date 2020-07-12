@@ -8,7 +8,8 @@
 }
 
 nav {
-  display: none;
+  display: -ms-grid;
+  display: grid;
   -ms-grid-columns: 15% 25% 15% 15% 15% 15%;
       grid-template-columns: 15% 25% 15% 15% 15% 15%;
   padding: 20px 15px;
@@ -39,23 +40,50 @@ nav a {
 }
 
 nav a hr {
+  visibility: hidden;
+  width: 0px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+nav a:hover hr {
+  visibility: visible;
   width: 80px;
 }
 
-#banner div {
-  width: 500px;
+#banner {
+  position: relative;
+  background-image: url(./img/IMG_9102.jpg);
+  background-position: 0 65%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
   height: 100vh;
-  background-color: #7a1600;
 }
 
-#banner img {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  background-color: white;
-  width: 100vw;
+#banner #imfor {
+  color: white;
+  font-size: 36px;
+  position: absolute;
+  top: 300px;
+  left: 250px;
+  z-index: 1;
+  line-height: 1.5;
+  letter-spacing: 5px;
+}
+
+#banner #imfor h1 {
+  font-size: 36px;
+  font-weight: 450;
+}
+
+#banner #card {
+  width: 550px;
   height: 100vh;
-  -o-object-fit: cover;
-     object-fit: cover;
+  position: absolute;
+  background-color: #8c2600;
+  opacity: 0.3;
+  top: 0px;
+  left: 0px;
 }
 /*# sourceMappingURL=style.css.map */
