@@ -63,20 +63,73 @@ nav{
 
     #imfor{
         color: white;
-        font-size: 36px;
+        font-size: 20px;
         position:absolute;
-        top:300px;
+        top:200px;
         left:250px;
         z-index: 1;
         line-height: 1.5;
         letter-spacing: 5px;
 
         h1{
-            font-size: 36px;
-            font-weight: 450;
+            font-size: 28px;
+            font-weight: 500;
 
         }
+       
+              
 
+    }
+
+    
+    #link{
+        
+
+        #topic{
+            text-decoration: none;
+            font-size: 58px;
+            font-weight: 600;
+            color: white;
+            transition: 0.5s;
+            
+
+            hr{
+                visibility: hidden;
+                width: 0px;
+                transition: 0.5s;
+
+            }
+
+            &:hover{
+                
+                #topic{
+                    color: $brownred;
+                }
+
+                hr{
+                    visibility: visible;
+                    width: 100%;
+                }
+            }
+        }
+
+        a{
+            text-decoration: none;
+            display: block;
+            color: white;
+            transition: 0.2s;
+
+            &:hover{
+                
+                a {
+                    color: $brownred;
+                }
+            }
+        }
+
+            
+           
+        
     }
 
     #card{

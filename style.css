@@ -62,9 +62,9 @@ nav a:hover hr {
 
 #banner #imfor {
   color: white;
-  font-size: 36px;
+  font-size: 20px;
   position: absolute;
-  top: 300px;
+  top: 200px;
   left: 250px;
   z-index: 1;
   line-height: 1.5;
@@ -72,8 +72,45 @@ nav a:hover hr {
 }
 
 #banner #imfor h1 {
-  font-size: 36px;
-  font-weight: 450;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+#banner #link #topic {
+  text-decoration: none;
+  font-size: 58px;
+  font-weight: 600;
+  color: white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#banner #link #topic hr {
+  visibility: hidden;
+  width: 0px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#banner #link #topic:hover #topic {
+  color: #8c2600;
+}
+
+#banner #link #topic:hover hr {
+  visibility: visible;
+  width: 100%;
+}
+
+#banner #link a {
+  text-decoration: none;
+  display: block;
+  color: white;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+#banner #link a:hover a {
+  color: #8c2600;
 }
 
 #banner #card {
