@@ -8,7 +8,8 @@
 }
 
 nav {
-  display: none;
+  display: -ms-grid;
+  display: grid;
   -ms-grid-columns: 15% 25% 15% 15% 15% 15%;
       grid-template-columns: 15% 25% 15% 15% 15% 15%;
   padding: 20px 15px;
@@ -16,7 +17,7 @@ nav {
       -ms-flex-align: baseline;
           align-items: baseline;
   position: fixed;
-  z-index: 1;
+  z-index: 0;
   width: 100vw;
   background-color: #8c2600;
   border-bottom: 1px solid lightgray;
@@ -66,7 +67,7 @@ nav a:hover hr {
   position: absolute;
   top: 300px;
   left: 250px;
-  z-index: 1;
+  z-index: 2;
   line-height: 1.5;
   letter-spacing: 5px;
 }
@@ -127,5 +128,34 @@ nav a:hover hr {
   opacity: 0.3;
   top: 0px;
   left: 0px;
+}
+
+section {
+  background-color: #E3E3E3;
+  width: 1200px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}
+
+#about {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  height: 1000px;
+}
+
+#about #box2 {
+  padding: 0px 150px;
+}
+
+#about #box2 h1 {
+  margin-bottom: 100px;
+  font-size: 36px;
+  font-weight: 400;
+  letter-spacing: 5px;
+  color: #8c2600;
 }
 /*# sourceMappingURL=style.css.map */
