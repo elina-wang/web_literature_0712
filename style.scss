@@ -1,6 +1,15 @@
 $brownred:#8c2600;
 $gray1:#E3E3E3;
 
+@mixin title {
+    margin-bottom: 100px;
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    color: black;
+
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -14,7 +23,7 @@ $gray1:#E3E3E3;
 
 // 導覽列
 nav{
-    display:grid;
+    display:none;
     grid-template-columns: 15% 25% 15% 15% 15% 15%;
     padding: 20px 15px;
     align-items: baseline;
@@ -70,7 +79,7 @@ nav{
         color: white;
         font-size: 20px;
         position:absolute;
-        top:300px;
+        top:100px;
         left:250px;
         z-index:3;
         line-height: 1.5;
@@ -194,13 +203,11 @@ section{
     #box2 {
         margin: 0px 100px;
         
+        
 
         h1{
-            margin-bottom: 100px;
-            font-size: 36px;
-            font-weight: 400;
-            letter-spacing: 5px;
-            color: black;
+            @include title();
+            
 
         }
 
@@ -241,3 +248,26 @@ section{
 }
 
 
+#way {
+
+    
+
+    h1 {
+        @include title();
+        padding-left: 100px;
+    }
+       
+
+    div{
+        margin-left: 100px;
+        padding-right: 100px;
+
+        
+        
+
+        
+
+
+        
+    }
+}
