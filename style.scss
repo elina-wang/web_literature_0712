@@ -257,10 +257,53 @@ section{
         padding-left: 100px;
     }
        
+    img{
+        display: inline;
+        height: 10px;
+        text-align: center;
+        align-items: center;
+        margin-right: 5px;
+    }
 
-    div{
+    #text1{
         margin-left: 100px;
         padding-right: 100px;
+        font-size: 16px ;
+        line-height: 2;
+        letter-spacing: 5px;
+
+        
+        
+        h4{
+            display: inline;
+
+
+            // 為甚麼是第7個及第10個元素
+            &:nth-child(7){
+                display: block;
+                
+            }
+            &:nth-child(10){
+                display: block;
+            }
+
+            
+        }
+        
+        p{
+            display: inline;
+
+            &:nth-child(8){
+                display: block;
+                margin-left: 15px;
+                
+            }
+            &:nth-child(10){
+                display: block;
+                margin-left: 15px;
+            }
+            
+        }
 
         
         
@@ -270,4 +313,22 @@ section{
 
         
     }
+
+    #text2{
+        margin-left: 100px;
+        padding-right: 100px;
+        font-size: 16px ;
+        line-height: 2;
+        letter-spacing: 5px;
+    }
+
+    p{
+        margin-left: 15px;
+    }
+
+
+    #more,#less {
+        text-decoration: none;
+    }
+
 }
