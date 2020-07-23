@@ -20,3 +20,28 @@ $("#link").hover(() => {
 $("#link2").mouseleave(() => {
     $("#link2").fadeOut(800);
 });
+
+
+$("#text2").slideUp(0).animate({
+    "opacity": 0
+});
+
+
+//用click會直接跳上去
+$("#more").hover(() => {
+    
+    $("#text2").delay(500).slideDown(1500).animate({
+        "opacity": 1 
+    });
+
+    
+});
+
+$("#less").hover(() => {
+    
+    $("#text2").delay(500).slideUp(1500).animate({
+        "opacity": 0 
+    });
+
+    
+});
