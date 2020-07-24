@@ -187,6 +187,10 @@ section {
   margin-top: 100px;
 }
 
+#way {
+  padding-bottom: 5px;
+}
+
 #way h1 {
   margin-bottom: 100px;
   font-size: 36px;
@@ -302,5 +306,52 @@ section {
 #way #less a:hover {
   color: white;
   background-color: #8c2600;
+}
+
+#article h1 {
+  margin-bottom: 100px;
+  font-size: 36px;
+  font-weight: 400;
+  letter-spacing: 5px;
+  color: black;
+  padding-left: 100px;
+}
+
+#article #works {
+  padding-left: 100px;
+  margin-bottom: 100px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+}
+
+#article #works a {
+  margin-bottom: 80px;
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+  letter-spacing: 5px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#article #works a img {
+  height: 16px;
+  margin-right: 5px;
+}
+
+#article #works a:nth-child(2) {
+  text-align: center;
+  margin-right: 55px;
+}
+
+#article #works a:nth-child(3) {
+  text-align: right;
+  padding-right: 100px;
+}
+
+#article #works a:hover {
+  color: #8c2600;
 }
 /*# sourceMappingURL=style.css.map */
