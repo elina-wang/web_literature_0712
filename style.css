@@ -401,9 +401,15 @@ section {
 
 #article #box3 div:nth-child(2) {
   margin-left: 350px;
+  padding-bottom: 25px;
 }
 
 #article #box3 div:nth-child(4) {
   margin-left: 350px;
+  padding-bottom: 25px;
+}
+
+#article #box3 div:nth-child(4) hr {
+  width: 30%;
 }
 /*# sourceMappingURL=style.css.map */

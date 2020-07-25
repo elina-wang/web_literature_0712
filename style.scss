@@ -488,10 +488,18 @@ section{
 
             &:nth-child(2){
                 margin-left: 350px;
+                padding-bottom: 25px;
             }
+
+            
+
 
             &:nth-child(4){
                 margin-left: 350px;
+                padding-bottom: 25px;
+                hr{
+                            width: 30%;
+                        }
             }
         }
 
