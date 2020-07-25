@@ -68,7 +68,7 @@ nav a:hover hr {
   top: 100px;
   left: 250px;
   z-index: 3;
-  line-height: 1.5;
+  line-height: 2;
   letter-spacing: 5px;
 }
 
@@ -317,6 +317,26 @@ section {
   padding-left: 100px;
 }
 
+#article #pic {
+  padding-bottom: 500px;
+}
+
+#article #pic img {
+  height: 70px;
+  padding-left: 48%;
+}
+
+#article #pic h3 {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  padding-left: 30px;
+  color: #8c2600;
+  font-weight: normal;
+  font-size: 16px;
+  letter-spacing: 5px;
+  text-align: center;
+}
+
 #article #works {
   padding-left: 100px;
   margin-bottom: 100px;
@@ -327,7 +347,7 @@ section {
 }
 
 #article #works a {
-  margin-bottom: 80px;
+  margin-bottom: 20px;
   text-decoration: none;
   font-size: 22px;
   color: black;
@@ -353,5 +373,37 @@ section {
 
 #article #works a:hover {
   color: #8c2600;
+}
+
+#article #box3 {
+  padding-left: 250px;
+}
+
+#article #box3 div {
+  margin-bottom: 50px;
+  letter-spacing: 5px;
+  line-height: 1.5;
+}
+
+#article #box3 div h4 {
+  display: inline;
+  font-size: 18px;
+}
+
+#article #box3 div h4 hr {
+  display: inline-block;
+  width: 20%;
+  vertical-align: middle;
+  border: 0px;
+  height: 1px;
+  background-color: #8c2600;
+}
+
+#article #box3 div:nth-child(2) {
+  margin-left: 350px;
+}
+
+#article #box3 div:nth-child(4) {
+  margin-left: 350px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -45,3 +45,18 @@ $("#less").hover(() => {
 
     
 });
+
+
+$("h3").slideUp(0).animate({
+    "opacity": 0
+});
+
+
+$("#pic").mouseenter(() => {
+    
+    $("h3").fadeIn(1000).animate({
+        "opacity": 1 
+    });
+
+    
+});

@@ -83,7 +83,7 @@ nav{
         top:100px;
         left:250px;
         z-index:3;
-        line-height: 1.5;
+        line-height: 2;
         letter-spacing: 5px;
 
         h1{
@@ -389,6 +389,29 @@ section{
         padding-left: 100px;
     } 
 
+    
+    #pic{
+        padding-bottom: 500px;
+
+        img {
+            height: 70px;
+            padding-left: 48%;
+        }
+
+        h3{
+            padding-top: 80px;
+            padding-bottom: 50px;
+            padding-left: 30px;
+            color: $brownred;
+            font-weight: normal;
+            font-size: 16px;
+            letter-spacing: 5px;
+            text-align: center;
+    
+        }
+    
+    }
+
     #works{
         
         padding-left: 100px;
@@ -398,7 +421,7 @@ section{
 
         a{
               
-            margin-bottom: 80px;
+            margin-bottom: 20px;
             text-decoration: none;
             font-size: 22px ;
             color: black;
@@ -426,5 +449,51 @@ section{
                 color: $brownred;
             }
         }
+
+    
+        
+
     }
+    
+
+    #box3{
+
+        padding-left: 250px;
+
+
+        div{
+            
+            margin-bottom: 50px;
+            letter-spacing: 5px;
+            line-height: 1.5;
+
+            
+
+            h4{
+                display: inline;
+                font-size: 18px;
+                
+
+                hr{ 
+                    display: inline-block;
+                    width: 20%;
+                    vertical-align: middle;
+                    border: 0px;
+                    height: 1px;
+                    background-color: $brownred;
+                    
+                }
+
+            }
+
+            &:nth-child(2){
+                margin-left: 350px;
+            }
+
+            &:nth-child(4){
+                margin-left: 350px;
+            }
+        }
+
+    }    
 }
