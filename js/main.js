@@ -37,14 +37,19 @@ $("#more").hover(() => {
     
 });
 
-$("#less").hover(() => {
+$("#less").mouseenter(() => {
     
-    $("#text2").delay(500).slideUp(1500).animate({
+    $("#text2").slideUp(1500).animate({
         "opacity": 0 
     });
 
     
 });
+
+
+
+
+
 
 
 $("h3").slideUp(0).animate({
