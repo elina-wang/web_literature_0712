@@ -1,4 +1,24 @@
 
+// https://codepen.io/KID_421/pen/bGEJqoR
+$("#navbar").hide(0);
+$(window).scroll(() => {
+    if ($(window).scrollTop() > 700) {
+      $("#navbar").fadeIn(500);
+    }
+  });
+
+  $(window).scroll(() => {
+    if ($(window).scrollTop() < 700) {
+      $("#navbar").fadeOut(500);
+    }
+  });
+
+
+
+
+
+
+
 
 // 最先 link2 摺起來, .動畫 設定 字體透明 0 
 
@@ -7,9 +27,9 @@ $("#link2").slideUp(0).animate({
 });
 
 // 滑至 link , link2摺下來, .動畫 設定 字體透明 1 (顯示)
-$("#link").hover(() => {
+$("#link").mouseenter(() => {
     
-    $("#link2").slideDown(1000).animate({
+    $("#link2").delay(500).slideDown(1000).animate({
         "opacity": 1
     });
 
@@ -52,16 +72,3 @@ $("#less").mouseenter(() => {
 
 
 
-$("h3").slideUp(0).animate({
-    "opacity": 0
-});
-
-
-$("#pic").mouseenter(() => {
-    
-    $("h3").fadeIn(1000).animate({
-        "opacity": 1 
-    });
-
-    
-});
