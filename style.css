@@ -28,7 +28,7 @@ nav {
 }
 
 nav #logo {
-  padding-left: 200px;
+  margin-left: 70%;
   font-size: 26px;
   font-weight: 700;
   color: white;
@@ -190,7 +190,6 @@ section {
   background-size: contain;
   width: 80%;
   height: 80%;
-  margin-top: 100px;
 }
 
 #way {
@@ -277,6 +276,7 @@ section {
 }
 
 #more2 {
+  width: 1200px;
   margin-bottom: 150px;
 }
 
@@ -500,6 +500,66 @@ footer {
     margin: 0 auto;
     -webkit-transition: 0.3s;
     transition: 0.3s;
+  }
+  #banner {
+    width: 960px;
+    margin: 0 auto;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    position: relative;
+  }
+  #banner #imfor {
+    position: absolute;
+    left: 150px;
+  }
+  #banner #card {
+    width: 40%;
+  }
+  #about {
+    width: 960px;
+    margin: 0 auto;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  #about #box2 {
+    margin: 0 50px;
+  }
+  #about #img {
+    margin-top: 150px;
+    width: 90%;
+  }
+  #way {
+    width: 960px;
+    margin: 0 auto;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  #more2 {
+    width: 960px;
+    margin: 0 auto;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  #article {
+    width: 960px;
+    margin: 0 auto;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  #article #box3 {
+    padding-left: 100px;
+  }
+  #contact {
+    width: 960px;
+    margin: 0 auto;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  #contact #us {
+    margin: 0px 250px;
+  }
+  footer {
+    padding-right: 80px;
   }
 }
 /*# sourceMappingURL=style.css.map */
