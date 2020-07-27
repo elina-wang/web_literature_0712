@@ -270,7 +270,7 @@ section{
     }
        
     img{
-        display: inline;
+        // display: inline;
         height: 10px;
         text-align: center;
         align-items: center;
@@ -370,7 +370,7 @@ section{
     }
 
     img{
-        display: inline;
+        // display: inline;
         height: 10px;
         text-align: center;
         align-items: center;
@@ -411,7 +411,7 @@ section{
 
 // 作品
 #article{
-    
+    padding-top: 50px;
 
     h1 {
         @include title();
@@ -693,7 +693,17 @@ footer{
 
 }
 
+@media screen and (min-width:768px) and (max-width:991px){
+    @mixin medium {
+        width: 720px;
+        margin: 0 auto;
+        transition: 0.3s;
+    }
 
+
+}
+
+    
 
 
 

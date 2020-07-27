@@ -206,7 +206,6 @@ section {
 }
 
 #way img {
-  display: inline;
   height: 10px;
   text-align: center;
   -webkit-box-align: center;
@@ -289,7 +288,6 @@ section {
 }
 
 #more2 img {
-  display: inline;
   height: 10px;
   text-align: center;
   -webkit-box-align: center;
@@ -326,6 +324,10 @@ section {
 #more2 #less a:hover {
   color: white;
   background-color: #8c2600;
+}
+
+#article {
+  padding-top: 50px;
 }
 
 #article h1 {
