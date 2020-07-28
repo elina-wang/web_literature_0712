@@ -567,4 +567,106 @@ footer {
     padding-right: 80px;
   }
 }
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  nav {
+    width: 720px;
+    margin: 0 auto;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    width: 100%;
+  }
+  #logo {
+    width: 720px;
+    margin: 0 auto;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  #banner {
+    width: 720px;
+    margin: 0 auto;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    background-image: url(./img/IMG_9102.jpg);
+    width: 100%;
+    height: 100vh;
+    position: relative;
+  }
+  #banner #imfor {
+    position: absolute;
+    left: 150px;
+  }
+  #banner #card {
+    width: 40%;
+  }
+  #about {
+    width: 720px;
+    margin: 0 auto;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    display: block;
+    margin-bottom: 600px;
+  }
+  #about #box2 {
+    margin: 0 50px;
+    margin-top: 50px;
+  }
+  #about #img {
+    margin: 100px 0px;
+    margin-left: 85px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    width: 90%;
+  }
+  #way {
+    width: 720px;
+    margin: 0 auto;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  #way h4:nth-child(1) {
+    display: block;
+  }
+  #more2 {
+    width: 720px;
+    margin: 0 auto;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  #article {
+    width: 720px;
+    margin: 0 auto;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  #article #works a:nth-child(3) {
+    text-align: left;
+    padding-right: 20px;
+  }
+  #article #box3 {
+    padding-left: 100px;
+  }
+  #article #box3 div:nth-child(2) {
+    margin-left: 150px;
+    padding-bottom: 25px;
+  }
+  #article #box3 div:nth-child(4) {
+    margin-left: 200px;
+    padding-bottom: 25px;
+  }
+  #contact {
+    width: 720px;
+    margin: 0 auto;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  #contact #us {
+    margin: 0px 150px;
+  }
+  footer {
+    padding-right: 80px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
