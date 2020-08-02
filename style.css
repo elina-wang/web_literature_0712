@@ -12,6 +12,10 @@ body {
 }
 
 nav {
+  width: 1200px;
+  margin: 0 auto;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 15% 25% 15% 15% 15% 15%;
@@ -56,6 +60,10 @@ nav a:hover hr {
 }
 
 #banner {
+  width: 1200px;
+  margin: 0 auto;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
   position: relative;
   z-index: 0;
   background-color: none;
@@ -149,6 +157,10 @@ section {
 }
 
 #about {
+  width: 1200px;
+  margin: 0 auto;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[2];
@@ -190,9 +202,14 @@ section {
   background-size: contain;
   width: 80%;
   height: 80%;
+  margin-top: 100px;
 }
 
 #way {
+  width: 1200px;
+  margin: 0 auto;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
   margin-bottom: 150px;
 }
 
@@ -276,6 +293,10 @@ section {
 
 #more2 {
   width: 1200px;
+  margin: 0 auto;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  width: 1200px;
   margin-bottom: 150px;
 }
 
@@ -327,6 +348,10 @@ section {
 }
 
 #article {
+  width: 1200px;
+  margin: 0 auto;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
   padding-top: 50px;
 }
 
@@ -436,6 +461,10 @@ section {
 }
 
 #contact {
+  width: 1200px;
+  margin: 0 auto;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
   padding-bottom: 150px;
 }
 
@@ -667,6 +696,63 @@ footer {
   }
   footer {
     padding-right: 80px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  nav {
+    width: 100%;
+    margin: 0 auto;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  nav #logo {
+    display: none;
+  }
+  nav a {
+    display: none;
+  }
+  nav #menu {
+    display: block;
+  }
+  nav #menu a {
+    display: none;
+  }
+  nav #menu a:nth-child(1) {
+    display: block;
+  }
+  #banner {
+    width: 100%;
+    margin: 0 auto;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    background-image: url(./img/IMG_9102.jpg);
+    width: 100%;
+    height: 100vh;
+    position: relative;
+  }
+  #banner #imfor {
+    position: absolute;
+    top: 150px;
+    left: 80px;
+  }
+  #banner #imfor h1 {
+    font-size: 20px;
+  }
+  #banner #imfor #box1 #link span {
+    font-size: 30px;
+  }
+  #banner #imfor #box1 #link #link2 a {
+    font-size: 14px;
+    margin: 2px 0;
+  }
+  #banner #imfor #box1 #mes1 p {
+    font-size: 14px;
+  }
+  #banner #card {
+    width: 40%;
   }
 }
 /*# sourceMappingURL=style.css.map */
